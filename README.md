@@ -5,7 +5,7 @@
 The first step involved creating a file that defines the **forbidden area** as well as the **chip boundary frame**.  
 The frame is generated using the `make_frame_function()` located in `frame.py`.
 
-![Figure 1 – Complete WDM transmitter layout](./images/figure1_wdm_layout.png)
+![Figure 1 – Complete WDM transmitter layout](./Images/uklad.png)
 
 ---
 
@@ -26,7 +26,8 @@ Two functions were created for this module:
 
 All functions are implemented in `laser_dbr.py`.
 
-![Figure 2 – DBR Laser. Left: output to system, Right: input from AWG](./images/figure2_dbr_laser.png)
+![Figure 2 – DBR Laser. Left: output to system, Right: input from AWG](./Images/laser.png)
+
 
 ---
 
@@ -41,7 +42,8 @@ Steps involved:
 
 This resulted in a fully implemented Mach-Zehnder modulator.
 
-![Figure 3 – Mach-Zehnder Modulator](./images/figure3_mzm.png)
+![Figure 3 – Mach-Zehnder Modulator](./Images/modulator.png)
+
 
 ---
 
@@ -52,6 +54,7 @@ After placing the **demultiplexer (AWG)** in the north and south parts of the la
 - Electrical contacts were added and connected to various parts of the laser  
 - Optical ports were added: input ports and a single output port
 
-![Figure 4 – AWG placed near the forbidden band](./images/figure4_awg.png)
+![Figure 4 – AWG placed near the forbidden band](./Images/awg.png)
+
 
 
